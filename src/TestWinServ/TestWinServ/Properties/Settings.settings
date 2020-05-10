@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestWinServ.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Interval" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="StartTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">00:01</Value>
+    </Setting>
+    <Setting Name="FinishTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">23:59</Value>
+    </Setting>
+    <Setting Name="OWApiID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">79fdc7520615a270da77e9d28779136c</Value>
+    </Setting>
+    <Setting Name="City" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dallas</Value>
+    </Setting>
+    <Setting Name="Country" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">US</Value>
+    </Setting>
+    <Setting Name="Units" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">metric</Value>
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.openweathermap.org/data/2.5/weather?q={0},{1}&amp;appid={2}&amp;units={3}</Value>
+    </Setting>
+    <Setting Name="OutputFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\OpenWeather\Result.csv</Value>
+    </Setting>
+    <Setting Name="FieldDelimiter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">,</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
